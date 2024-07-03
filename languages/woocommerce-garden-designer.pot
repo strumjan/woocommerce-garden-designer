@@ -1,0 +1,533 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: WooCommerce Garden Designer\n"
+"POT-Creation-Date: 2024-07-01 10:29+0200\n"
+"PO-Revision-Date: 2024-06-11 12:24+0200\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: en_US\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 3.4.4\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-KeywordsList: _e;__\n"
+"X-Poedit-SearchPath-0: includes/garden-designer-planer.php\n"
+"X-Poedit-SearchPath-1: includes/garden-designer-main.php\n"
+"X-Poedit-SearchPath-2: includes/garden-designer-script.js\n"
+"X-Poedit-SearchPath-3: woocommerce-garden-designer.php\n"
+
+#: includes/garden-designer-main.php:16
+msgid "1. Select the brightness"
+msgstr ""
+
+#: includes/garden-designer-main.php:18 woocommerce-garden-designer.php:71
+msgid "Sun (6 or more hours of sunlight)"
+msgstr ""
+
+#: includes/garden-designer-main.php:22 woocommerce-garden-designer.php:72
+msgid "Partial shade (4-6 hours of sunlight)"
+msgstr ""
+
+#: includes/garden-designer-main.php:26
+msgid "Shade (3 or less hours of sunlight)"
+msgstr ""
+
+#: includes/garden-designer-main.php:30
+msgid "2. Choose the type of flower bed"
+msgstr ""
+
+#: includes/garden-designer-main.php:33
+msgid "Against the wall"
+msgstr ""
+
+#: includes/garden-designer-main.php:37 woocommerce-garden-designer.php:104
+msgid "Central"
+msgstr ""
+
+#: includes/garden-designer-main.php:43
+msgid "3. Enter the dimensions of the bed"
+msgstr ""
+
+#: includes/garden-designer-main.php:44
+msgid "Length (in cm.):"
+msgstr ""
+
+#: includes/garden-designer-main.php:47
+msgid "Width (in cm.):"
+msgstr ""
+
+#: includes/garden-designer-main.php:50
+msgid "Confirm selection"
+msgstr ""
+
+#: includes/garden-designer-planer.php:30
+msgid "Sun"
+msgstr ""
+
+#: includes/garden-designer-planer.php:33
+msgid "Partial shade"
+msgstr ""
+
+#: includes/garden-designer-planer.php:36
+msgid "Shade"
+msgstr ""
+
+#: includes/garden-designer-planer.php:41
+#: includes/garden-designer-planer.php:45
+msgid "Illumination: "
+msgstr ""
+
+#: includes/garden-designer-planer.php:41
+msgid "Type of flower bed: against the wall"
+msgstr ""
+
+#: includes/garden-designer-planer.php:42
+#: includes/garden-designer-planer.php:46
+msgid "Field surface: "
+msgstr ""
+
+#: includes/garden-designer-planer.php:45
+msgid "Type of flower bed: central"
+msgstr ""
+
+#: includes/garden-designer-planer.php:48
+msgid "You have not selected the type of flower bed."
+msgstr ""
+
+#: includes/garden-designer-planer.php:52
+msgid "Legend: "
+msgstr ""
+
+#: includes/garden-designer-planer.php:53
+msgid "&nbsp;Tall plants (90-150 cm)"
+msgstr ""
+
+#: includes/garden-designer-planer.php:54
+msgid "&nbsp;Medium plants (50-80 cm)"
+msgstr ""
+
+#: includes/garden-designer-planer.php:55
+msgid "&nbsp;Low plants (15-40 cm)"
+msgstr ""
+
+#: includes/garden-designer-planer.php:177
+msgid "In stock: "
+msgstr ""
+
+#: includes/garden-designer-planer.php:182
+msgid "We have a lot"
+msgstr ""
+
+#: includes/garden-designer-planer.php:186
+msgid "We don't currently have any"
+msgstr ""
+
+#: includes/garden-designer-planer.php:192
+#: includes/garden-designer-script.js:249
+msgid "quantity:"
+msgstr ""
+
+#: includes/garden-designer-planer.php:589
+#: includes/garden-designer-planer.php:655
+msgid "First, choose whether you want a standard or dense arrangement of plants. And in the following steps you will choose tall, medium and short plants for your flower bed."
+msgstr ""
+
+#: includes/garden-designer-planer.php:590
+msgid "Against the wall, standard layout"
+msgstr ""
+
+#: includes/garden-designer-planer.php:590
+#: includes/garden-designer-planer.php:656
+msgid "(Planting distance: high 60 cm, medium 50 cm, low 50 cm)"
+msgstr ""
+
+#: includes/garden-designer-planer.php:591
+#: includes/garden-designer-planer.php:623
+msgid "wall"
+msgstr ""
+
+#: includes/garden-designer-planer.php:618
+#: includes/garden-designer-planer.php:650
+#: includes/garden-designer-planer.php:684
+#: includes/garden-designer-planer.php:716
+msgid "Rotate"
+msgstr ""
+
+#: includes/garden-designer-planer.php:619
+#: includes/garden-designer-planer.php:685
+msgid "Select <strong>standard layout</strong> and proceed to select tall plants"
+msgstr ""
+
+#: includes/garden-designer-planer.php:622
+msgid "Along the wall, a dense layout"
+msgstr ""
+
+#: includes/garden-designer-planer.php:622
+#: includes/garden-designer-planer.php:688
+msgid "(Planting distance: high 40 cm, medium 30 cm, low 30 cm)"
+msgstr ""
+
+#: includes/garden-designer-planer.php:651
+#: includes/garden-designer-planer.php:717
+msgid "Choose a <strong>dense arrangement</strong> and proceed to select tall plants"
+msgstr ""
+
+#: includes/garden-designer-planer.php:656
+msgid "Central, standard layout"
+msgstr ""
+
+#: includes/garden-designer-planer.php:688
+msgid "Central, dense layout"
+msgstr ""
+
+#: includes/garden-designer-planer.php:726
+#: includes/garden-designer-planer.php:771
+#: includes/garden-designer-planer.php:816
+msgid "Tall plants:"
+msgstr ""
+
+#: includes/garden-designer-planer.php:729
+msgid "<strong>Standard arrangement along the wall</strong>, required number of <strong>tall</strong> plants: "
+msgstr ""
+
+#: includes/garden-designer-planer.php:729
+#: includes/garden-designer-planer.php:731
+#: includes/garden-designer-planer.php:743
+#: includes/garden-designer-planer.php:745
+#: includes/garden-designer-planer.php:757
+#: includes/garden-designer-planer.php:759
+#: includes/garden-designer-planer.php:774
+#: includes/garden-designer-planer.php:776
+#: includes/garden-designer-planer.php:788
+#: includes/garden-designer-planer.php:790
+#: includes/garden-designer-planer.php:802
+#: includes/garden-designer-planer.php:804
+msgid "Selected:"
+msgstr ""
+
+#: includes/garden-designer-planer.php:731
+msgid "<strong>Standard layout central</strong>, required number of <strong>tall</strong> plants: "
+msgstr ""
+
+#: includes/garden-designer-planer.php:735
+#: includes/garden-designer-planer.php:780
+#: includes/garden-designer-script.js:490
+#: includes/garden-designer-script.js:568
+#: includes/garden-designer-script.js:574
+msgid "Please select tall plants first"
+msgstr ""
+
+#: includes/garden-designer-planer.php:736
+#: includes/garden-designer-planer.php:750
+#: includes/garden-designer-planer.php:764
+#: includes/garden-designer-planer.php:781
+#: includes/garden-designer-planer.php:795
+#: includes/garden-designer-planer.php:809
+msgid "Clear selection"
+msgstr ""
+
+#: includes/garden-designer-planer.php:740
+#: includes/garden-designer-planer.php:785
+#: includes/garden-designer-planer.php:819
+msgid "Medium plants:"
+msgstr ""
+
+#: includes/garden-designer-planer.php:743
+msgid "<strong>Standard arrangement along the wall</strong>, required number of <strong>medium</strong> plants: "
+msgstr ""
+
+#: includes/garden-designer-planer.php:745
+msgid "<strong>Standard layout central</strong>, required number of <strong>middle</strong> plants: "
+msgstr ""
+
+#: includes/garden-designer-planer.php:749
+#: includes/garden-designer-planer.php:794
+#: includes/garden-designer-script.js:491
+#: includes/garden-designer-script.js:570
+#: includes/garden-designer-script.js:576
+msgid "Please select medium plants first"
+msgstr ""
+
+#: includes/garden-designer-planer.php:754
+#: includes/garden-designer-planer.php:799
+#: includes/garden-designer-planer.php:822
+msgid "Low plants:"
+msgstr ""
+
+#: includes/garden-designer-planer.php:757
+msgid "<strong>Standard arrangement along the wall</strong>, required number of <strong>low</strong> plants: "
+msgstr ""
+
+#: includes/garden-designer-planer.php:759
+msgid "<strong>Standard layout central</strong>, the required number of <strong>low</strong> plants is: "
+msgstr ""
+
+#: includes/garden-designer-planer.php:763
+#: includes/garden-designer-planer.php:808
+#: includes/garden-designer-script.js:492
+#: includes/garden-designer-script.js:572
+#: includes/garden-designer-script.js:578
+msgid "Please select short plants first"
+msgstr ""
+
+#: includes/garden-designer-planer.php:774
+msgid "<strong>Dense arrangement along the wall</strong>, required number of <strong>tall</strong> plants: "
+msgstr ""
+
+#: includes/garden-designer-planer.php:776
+msgid "<strong>Dense arrangement centrally</strong>, required number of <strong>tall</strong> plants: "
+msgstr ""
+
+#: includes/garden-designer-planer.php:788
+msgid "<strong>Dense arrangement along the wall</strong>, required number of <strong>medium</strong> plants: "
+msgstr ""
+
+#: includes/garden-designer-planer.php:790
+msgid "<strong>Dense central arrangement</strong>, required number of <strong>middle</strong> plants: "
+msgstr ""
+
+#: includes/garden-designer-planer.php:802
+msgid "<strong>Dense arrangement along the wall</strong>, required number of <strong>low</strong> plants: "
+msgstr ""
+
+#: includes/garden-designer-planer.php:804
+msgid "<strong>Dense arrangement centrally</strong>, required number of <strong>low</strong> plants: "
+msgstr ""
+
+#: includes/garden-designer-planer.php:814
+msgid "Shopping List:"
+msgstr ""
+
+#: includes/garden-designer-planer.php:825
+msgid "Add all to cart"
+msgstr ""
+
+#: includes/garden-designer-script.js:53
+msgid "lenght"
+msgstr ""
+
+#: includes/garden-designer-script.js:57
+msgid "width"
+msgstr ""
+
+#: includes/garden-designer-script.js:76
+msgid "Preparing a plan, be patient..."
+msgstr ""
+
+#: includes/garden-designer-script.js:111
+msgid "You have not selected the type of illumination!"
+msgstr ""
+
+#: includes/garden-designer-script.js:125
+msgid "You have not selected a flower bed type!"
+msgstr ""
+
+#: includes/garden-designer-script.js:136
+msgid "You have not set a dimension!"
+msgstr ""
+
+#: includes/garden-designer-script.js:331
+msgid "The total sum is:"
+msgstr ""
+
+#: includes/garden-designer-script.js:485
+msgid "Continue to the Middle Plants"
+msgstr ""
+
+#: includes/garden-designer-script.js:486
+msgid "Continue to Low Plants"
+msgstr ""
+
+#: includes/garden-designer-script.js:487
+msgid "Add all the selected plants to the shopping list"
+msgstr ""
+
+#: woocommerce-garden-designer.php:53
+msgid "Garden Designer Settings"
+msgstr ""
+
+#: woocommerce-garden-designer.php:54
+msgid "Garden Designer"
+msgstr ""
+
+#: woocommerce-garden-designer.php:66
+msgid "\"Garden Designer\" Settings"
+msgstr ""
+
+#: woocommerce-garden-designer.php:67
+msgid "\"Garden Designer\" allows your customers to optimize their garden based on expert recommendations. After selecting the lighting and surface type, the \"Garden Designer\" calculates the necessary types and quantities of plants. It also provides a planting layout sketch. Customers can choose from the available plants in stock and add them to their cart with a single click, directing them to your payment page."
+msgstr ""
+
+#: woocommerce-garden-designer.php:68
+msgid "Rules:"
+msgstr ""
+
+#: woocommerce-garden-designer.php:70
+msgid "Lighting is categorized into three types:"
+msgstr ""
+
+#: woocommerce-garden-designer.php:73
+msgid "Shade (3 or fewer hours of sunlight)"
+msgstr ""
+
+#: woocommerce-garden-designer.php:76
+msgid "Flower bed type options:"
+msgstr ""
+
+#: woocommerce-garden-designer.php:77
+msgid "Along a wall (where at least one side touches a wall)"
+msgstr ""
+
+#: woocommerce-garden-designer.php:78
+msgid "Central (where no side touches a wall)"
+msgstr ""
+
+#: woocommerce-garden-designer.php:81
+msgid "Plants are divided into three groups:"
+msgstr ""
+
+#: woocommerce-garden-designer.php:82 woocommerce-garden-designer.php:108
+msgid "Tall plants (90-150 cm)"
+msgstr ""
+
+#: woocommerce-garden-designer.php:83 woocommerce-garden-designer.php:109
+msgid "Medium plants (50-80 cm)"
+msgstr ""
+
+#: woocommerce-garden-designer.php:84 woocommerce-garden-designer.php:110
+msgid "Short plants (15-40 cm)"
+msgstr ""
+
+#: woocommerce-garden-designer.php:87
+msgid "Customers can choose between two planting methods:"
+msgstr ""
+
+#: woocommerce-garden-designer.php:88 woocommerce-garden-designer.php:114
+msgid "Standard spacing (planting distance: tall 60 cm, medium 50 cm, short 50 cm)"
+msgstr ""
+
+#: woocommerce-garden-designer.php:89 woocommerce-garden-designer.php:115
+msgid "Dense spacing (planting distance: tall 40 cm, medium 30 cm, short 30 cm)"
+msgstr ""
+
+#: woocommerce-garden-designer.php:91
+msgid "Instructions for site administrators:"
+msgstr ""
+
+#: woocommerce-garden-designer.php:93
+msgid "Before installing \"Garden Designer,\" ensure that WooCommerce is already installed."
+msgstr ""
+
+#: woocommerce-garden-designer.php:94
+msgid "Define tags for the following characteristics:"
+msgstr ""
+
+#: woocommerce-garden-designer.php:96
+msgid "Lighting:"
+msgstr ""
+
+#: woocommerce-garden-designer.php:97
+msgid "Sun (e.g. sun, light)"
+msgstr ""
+
+#: woocommerce-garden-designer.php:98
+msgid "Partial shade (e.g. partial-shade, semi-dark)"
+msgstr ""
+
+#: woocommerce-garden-designer.php:99
+msgid "Shade (e.g. shade, dark)"
+msgstr ""
+
+#: woocommerce-garden-designer.php:102
+msgid "Flower bed type:"
+msgstr ""
+
+#: woocommerce-garden-designer.php:103
+msgid "Along a wall"
+msgstr ""
+
+#: woocommerce-garden-designer.php:107
+msgid "Plant height:"
+msgstr ""
+
+#: woocommerce-garden-designer.php:113
+msgid "Planting method:"
+msgstr ""
+
+#: woocommerce-garden-designer.php:118
+msgid "After defining the tags, assign them to each of your products or the plants you offer for sale."
+msgstr ""
+
+#: woocommerce-garden-designer.php:119
+msgid "\"Garden Designer\" will consider only in-stock products and present them to customers."
+msgstr ""
+
+#: woocommerce-garden-designer.php:120
+msgid "After selecting desired plants, customers will be directly redirected to your designated payment page."
+msgstr ""
+
+#: woocommerce-garden-designer.php:121
+msgid "To use \"Garden Designer\", insert the following shortcode on any page: [garden_designer]."
+msgstr ""
+
+#: woocommerce-garden-designer.php:128
+msgid "<strong>Note</strong>: You can enter only one tag without quotation marks and other special characters in the corresponding field for each tag.<br />After clicking the \"Save Changes\" button, the tags will be saved in the component's settings and automatically added to the WooCommerce \"Tags\" set.<br />In order for the component to function properly, after determining the tags, you need to assign them to each of your products, that is, to each herb that you offer for sale.<br />You add the \"brightness\" tags as you defined them.<br />You provide the \"width\" and \"height\" labels in the following format: label number cm (where \"label\" is the label you defined in the settings, \"number\" is the corresponding width or height of the plant expressed in centimeters, \"cm\" is for informational display of the dimension. Note that there are spaces between the sections.)<br />For example:<br />- If the label is \"W:\" and the plant is \"30 cm\" wide, then enter \"W: 30 cm\"<br />- If the mark is \"H:\" and the plant is \"120 cm high\", then enter \"H: 120 cm\"<br />Unfortunately, tags can only be typed in one language, although the component itself can be used in multiple languages."
+msgstr ""
+
+#: woocommerce-garden-designer.php:131
+msgid "Shortcode Usage"
+msgstr ""
+
+#: woocommerce-garden-designer.php:132
+msgid "To use the \"Garden designer\", simply use the following shortcode:"
+msgstr ""
+
+#: woocommerce-garden-designer.php:133
+msgid "Shortcode is copied to Clipboard!"
+msgstr ""
+
+#: woocommerce-garden-designer.php:136
+msgid "Copy shortcode to Clipboard"
+msgstr ""
+
+#: woocommerce-garden-designer.php:138
+msgid "Note:"
+msgstr ""
+
+#: woocommerce-garden-designer.php:138
+msgid "You can also use \"Garden Designer\" to facilitate garden planning for your clients."
+msgstr ""
+
+#: woocommerce-garden-designer.php:139
+msgid "Good luck with your sales!"
+msgstr ""
+
+#: woocommerce-garden-designer.php:168
+msgid "Tag Settings"
+msgstr ""
+
+#: woocommerce-garden-designer.php:170
+msgid "Sun Tag"
+msgstr ""
+
+#: woocommerce-garden-designer.php:171
+msgid "Part Shade Tag"
+msgstr ""
+
+#: woocommerce-garden-designer.php:172
+msgid "Shade Tag"
+msgstr ""
+
+#: woocommerce-garden-designer.php:173
+msgid "Width Tag"
+msgstr ""
+
+#: woocommerce-garden-designer.php:174
+msgid "Height Tag"
+msgstr ""
+
+#: woocommerce-garden-designer.php:178
+msgid "Enter your custom tags for garden designer settings."
+msgstr ""

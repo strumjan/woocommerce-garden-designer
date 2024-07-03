@@ -1,0 +1,29 @@
+{
+    "translation-revision-date": "2024-06-20 14:31:16+0000",
+    "generator": "Poedit 3.4.4",
+    "source": "includes/garden-designer-script.js",
+    "domain": "woocommerce-garden-designer",
+    "locale_data": {
+        "messages": {
+            "": {
+                "domain": "woocommerce-garden-designer",
+                "lang": "mk_MK",
+                "plural-forms": "nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && (n%100<10 || n%100>=20) ? 1 : 2;"
+            },
+            "quantity:": ["количина:"],
+			"Please select tall plants first": ["Молиме прво избери високи билки"],
+			"Please select medium plants first": ["Молиме прво избери средни билки"],
+			"Please select short plants first": ["Молиме прво избери ниски билки"],
+			"lenght": ["должина"],
+			"width": ["ширина"],
+			"Preparing a plan, be patient...": ["Трпение, го припремам планот..."],
+			"You have not selected the type of illumination!": ["Не одбравте тип на осветленост!"],
+			"You have not selected a flower bed type!": ["Не одбравте тип на гредичка!"],
+			"You have not set a dimension!": ["Немате поставено димензии!"],
+			"The total sum is:": ["Вкупната сума е:"],
+			"Continue to the Middle Plants": ["Продолжи кон Средни билки"],
+			"Continue to Low Plants": ["Продолжи кон Ниски билки"],
+			"Add all the selected plants to the shopping list": ["Додади ги одбраните во Листата за купување"]
+        }
+    }
+}

@@ -1,0 +1,29 @@
+{
+    "translation-revision-date": "2024-06-20 14:31:16+0000",
+    "generator": "Poedit 3.4.4",
+    "source": "includes/garden-designer-script.js",
+    "domain": "woocommerce-garden-designer",
+    "locale_data": {
+        "messages": {
+            "": {
+                "domain": "woocommerce-garden-designer",
+                "lang": "hr",
+                "plural-forms": "nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && (n%100<10 || n%100>=20) ? 1 : 2;"
+            },
+            "quantity:": ["količina:"],
+            "Please select tall plants first": ["Molimo vas prvo odaberite visoke biljke"],
+            "Please select medium plants first": ["Molimo vas prvo odaberite srednje biljke"],
+            "Please select short plants first": ["Molimo vas prvo odaberite niske biljke"],
+            "length": ["duljina"],
+            "width": ["širina"],
+            "Preparing a plan, be patient...": ["Pripremam plan, budite strpljivi..."],
+            "You have not selected the type of illumination!": ["Niste odabrali tip osvetljenosti!"],
+            "You have not selected a flower bed type!": ["Niste odabrali tip gredice!"],
+            "You have not set a dimension!": ["Niste postavili dimenzije!"],
+            "The total sum is:": ["Ukupna suma je:"],
+            "Continue to the Middle Plants": ["Produži ka Srednjim biljkama"],
+            "Continue to Low Plants": ["Produži ka Niskim biljkama"],
+            "Add all the selected plants to the shopping list": ["Dodaj sve odabrane biljke u listu za kupovinu"]
+        }
+    }
+}

@@ -1,0 +1,667 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: WooCommerce Garden Designer\n"
+"POT-Creation-Date: 2024-07-01 10:30+0200\n"
+"PO-Revision-Date: 2024-07-01 10:30+0200\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: hr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 3.4.4\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-KeywordsList: _e;__\n"
+"X-Poedit-SearchPath-0: includes/garden-designer-planer.php\n"
+"X-Poedit-SearchPath-1: includes/garden-designer-main.php\n"
+"X-Poedit-SearchPath-2: includes/garden-designer-script.js\n"
+"X-Poedit-SearchPath-3: woocommerce-garden-designer.php\n"
+
+#: includes/garden-designer-main.php:16
+msgid "1. Select the brightness"
+msgstr "1. Odaberi osvijetljenost"
+
+#: includes/garden-designer-main.php:18 woocommerce-garden-designer.php:71
+msgid "Sun (6 or more hours of sunlight)"
+msgstr "Sunce (6 i više sati sunčeve svjetlosti)"
+
+#: includes/garden-designer-main.php:22 woocommerce-garden-designer.php:72
+msgid "Partial shade (4-6 hours of sunlight)"
+msgstr "Polusjena (4-6 sati sunčeve svjetlosti)"
+
+#: includes/garden-designer-main.php:26
+msgid "Shade (3 or less hours of sunlight)"
+msgstr "Sjena (3 ili manje sati sunčeve svjetlosti)"
+
+#: includes/garden-designer-main.php:30
+msgid "2. Choose the type of flower bed"
+msgstr "2. Odaberi tip gredice"
+
+#: includes/garden-designer-main.php:33
+msgid "Against the wall"
+msgstr "Uza zid"
+
+#: includes/garden-designer-main.php:37 woocommerce-garden-designer.php:104
+msgid "Central"
+msgstr "Centralno"
+
+#: includes/garden-designer-main.php:43
+msgid "3. Enter the dimensions of the bed"
+msgstr "3. Unesi dimenzije gredice"
+
+#: includes/garden-designer-main.php:44
+msgid "Length (in cm.):"
+msgstr "Duljina (u cm.):"
+
+#: includes/garden-designer-main.php:47
+msgid "Width (in cm.):"
+msgstr "Širina (u cm.):"
+
+#: includes/garden-designer-main.php:50
+msgid "Confirm selection"
+msgstr "Potvrdi odabir"
+
+#: includes/garden-designer-planer.php:30
+msgid "Sun"
+msgstr "Sunce"
+
+#: includes/garden-designer-planer.php:33
+msgid "Partial shade"
+msgstr "Polusjena"
+
+#: includes/garden-designer-planer.php:36
+msgid "Shade"
+msgstr "Sjena"
+
+#: includes/garden-designer-planer.php:41
+#: includes/garden-designer-planer.php:45
+msgid "Illumination: "
+msgstr "Osvijetljenost: "
+
+#: includes/garden-designer-planer.php:41
+msgid "Type of flower bed: against the wall"
+msgstr "Tip gredice: uza zid"
+
+#: includes/garden-designer-planer.php:42
+#: includes/garden-designer-planer.php:46
+msgid "Field surface: "
+msgstr "Površina terena: "
+
+#: includes/garden-designer-planer.php:45
+msgid "Type of flower bed: central"
+msgstr "Tip gredice: centralno"
+
+#: includes/garden-designer-planer.php:48
+msgid "You have not selected the type of flower bed."
+msgstr "Niste odabrali tip gredice."
+
+#: includes/garden-designer-planer.php:52
+msgid "Legend: "
+msgstr "Legenda: "
+
+#: includes/garden-designer-planer.php:53
+msgid "&nbsp;Tall plants (90-150 cm)"
+msgstr "&nbsp;Visoke biljke (90-150 cm)"
+
+#: includes/garden-designer-planer.php:54
+msgid "&nbsp;Medium plants (50-80 cm)"
+msgstr "&nbsp;Srednje biljke (50-80 cm)"
+
+#: includes/garden-designer-planer.php:55
+msgid "&nbsp;Low plants (15-40 cm)"
+msgstr "&nbsp;Niske biljke (15-40 cm)"
+
+#: includes/garden-designer-planer.php:177
+msgid "In stock: "
+msgstr "Na stanju: "
+
+#: includes/garden-designer-planer.php:182
+msgid "We have a lot"
+msgstr "Imamo puno"
+
+#: includes/garden-designer-planer.php:186
+msgid "We don't currently have any"
+msgstr "Nemamo trenutno"
+
+#: includes/garden-designer-planer.php:192
+#: includes/garden-designer-script.js:249
+msgid "quantity:"
+msgstr "količina:"
+
+#: includes/garden-designer-planer.php:589
+#: includes/garden-designer-planer.php:655
+msgid ""
+"First, choose whether you want a standard or dense arrangement of plants. "
+"And in the following steps you will choose tall, medium and short plants for "
+"your flower bed."
+msgstr ""
+"Najprije odaberite dali ste za standardni ili gusti raspored biljaka. A u "
+"slijedećim koracima odabrati ćete visoke, srednje i niske biljke za svoju "
+"cvjetnu gredicu."
+
+#: includes/garden-designer-planer.php:590
+msgid "Against the wall, standard layout"
+msgstr "Uza zid, standardni raspored"
+
+#: includes/garden-designer-planer.php:590
+#: includes/garden-designer-planer.php:656
+msgid "(Planting distance: high 60 cm, medium 50 cm, low 50 cm)"
+msgstr "(Razmak sadnje: visoke 60 cm, srednje 50 cm, niske 50 cm)"
+
+#: includes/garden-designer-planer.php:591
+#: includes/garden-designer-planer.php:623
+msgid "wall"
+msgstr "zid"
+
+#: includes/garden-designer-planer.php:618
+#: includes/garden-designer-planer.php:650
+#: includes/garden-designer-planer.php:684
+#: includes/garden-designer-planer.php:716
+msgid "Rotate"
+msgstr "Rotiraj"
+
+#: includes/garden-designer-planer.php:619
+#: includes/garden-designer-planer.php:685
+msgid ""
+"Select <strong>standard layout</strong> and proceed to select tall plants"
+msgstr ""
+"Odaberi <strong>standardni raspored</strong> i nastavi ka odabiru visokih "
+"biljaka"
+
+#: includes/garden-designer-planer.php:622
+msgid "Along the wall, a dense layout"
+msgstr "Uza zid, gusti raspored"
+
+#: includes/garden-designer-planer.php:622
+#: includes/garden-designer-planer.php:688
+msgid "(Planting distance: high 40 cm, medium 30 cm, low 30 cm)"
+msgstr "(Razmak sadnje: visoke 40 cm, srednje 30 cm, niske 30 cm)"
+
+#: includes/garden-designer-planer.php:651
+#: includes/garden-designer-planer.php:717
+msgid ""
+"Choose a <strong>dense arrangement</strong> and proceed to select tall plants"
+msgstr ""
+"Odaberi <strong>gusti raspored</strong> i nastavi ka odabiru visokih biljaka"
+
+#: includes/garden-designer-planer.php:656
+msgid "Central, standard layout"
+msgstr "Centralno, standardni raspored"
+
+#: includes/garden-designer-planer.php:688
+msgid "Central, dense layout"
+msgstr "Centralno, gusti raspored"
+
+#: includes/garden-designer-planer.php:726
+#: includes/garden-designer-planer.php:771
+#: includes/garden-designer-planer.php:816
+msgid "Tall plants:"
+msgstr "Visoke biljke:"
+
+#: includes/garden-designer-planer.php:729
+msgid ""
+"<strong>Standard arrangement along the wall</strong>, required number of "
+"<strong>tall</strong> plants: "
+msgstr ""
+"<strong>Standardni raspored uz zid</strong>, potrebni broj <strong>visokih</"
+"strong> biljaka: "
+
+#: includes/garden-designer-planer.php:729
+#: includes/garden-designer-planer.php:731
+#: includes/garden-designer-planer.php:743
+#: includes/garden-designer-planer.php:745
+#: includes/garden-designer-planer.php:757
+#: includes/garden-designer-planer.php:759
+#: includes/garden-designer-planer.php:774
+#: includes/garden-designer-planer.php:776
+#: includes/garden-designer-planer.php:788
+#: includes/garden-designer-planer.php:790
+#: includes/garden-designer-planer.php:802
+#: includes/garden-designer-planer.php:804
+msgid "Selected:"
+msgstr "Odabrano:"
+
+#: includes/garden-designer-planer.php:731
+msgid ""
+"<strong>Standard layout central</strong>, required number of <strong>tall</"
+"strong> plants: "
+msgstr ""
+"<strong>Standardni raspored centralno</strong>, potrebni broj "
+"<strong>visokih</strong> biljaka: "
+
+#: includes/garden-designer-planer.php:735
+#: includes/garden-designer-planer.php:780
+#: includes/garden-designer-script.js:490
+#: includes/garden-designer-script.js:568
+#: includes/garden-designer-script.js:574
+msgid "Please select tall plants first"
+msgstr "Molimo vas prvo odaberite visoke biljke"
+
+#: includes/garden-designer-planer.php:736
+#: includes/garden-designer-planer.php:750
+#: includes/garden-designer-planer.php:764
+#: includes/garden-designer-planer.php:781
+#: includes/garden-designer-planer.php:795
+#: includes/garden-designer-planer.php:809
+msgid "Clear selection"
+msgstr "Očisti odabir"
+
+#: includes/garden-designer-planer.php:740
+#: includes/garden-designer-planer.php:785
+#: includes/garden-designer-planer.php:819
+msgid "Medium plants:"
+msgstr "Srednje biljke:"
+
+#: includes/garden-designer-planer.php:743
+msgid ""
+"<strong>Standard arrangement along the wall</strong>, required number of "
+"<strong>medium</strong> plants: "
+msgstr ""
+"<strong>Standardni raspored uz zid</strong>, potrebni broj <strong>srednjih</"
+"strong> biljaka: "
+
+#: includes/garden-designer-planer.php:745
+msgid ""
+"<strong>Standard layout central</strong>, required number of <strong>middle</"
+"strong> plants: "
+msgstr ""
+"<strong>Standardni raspored centralno</strong>, potrebni broj "
+"<strong>srednjih</strong> biljaka: "
+
+#: includes/garden-designer-planer.php:749
+#: includes/garden-designer-planer.php:794
+#: includes/garden-designer-script.js:491
+#: includes/garden-designer-script.js:570
+#: includes/garden-designer-script.js:576
+msgid "Please select medium plants first"
+msgstr "Molimo vas prvo odaberite srednje biljke"
+
+#: includes/garden-designer-planer.php:754
+#: includes/garden-designer-planer.php:799
+#: includes/garden-designer-planer.php:822
+msgid "Low plants:"
+msgstr "Niske biljke:"
+
+#: includes/garden-designer-planer.php:757
+msgid ""
+"<strong>Standard arrangement along the wall</strong>, required number of "
+"<strong>low</strong> plants: "
+msgstr ""
+"<strong>Standardni raspored uz zid</strong>, potrebni broj <strong>niskih</"
+"strong> biljaka: "
+
+#: includes/garden-designer-planer.php:759
+msgid ""
+"<strong>Standard layout central</strong>, the required number of "
+"<strong>low</strong> plants is: "
+msgstr ""
+"<strong>Standardni raspored centralno</strong>, potrebni broj "
+"<strong>niskih</strong> biljaka je: "
+
+#: includes/garden-designer-planer.php:763
+#: includes/garden-designer-planer.php:808
+#: includes/garden-designer-script.js:492
+#: includes/garden-designer-script.js:572
+#: includes/garden-designer-script.js:578
+msgid "Please select short plants first"
+msgstr "Molimo vas prvo odaberite niske biljke"
+
+#: includes/garden-designer-planer.php:774
+msgid ""
+"<strong>Dense arrangement along the wall</strong>, required number of "
+"<strong>tall</strong> plants: "
+msgstr ""
+"<strong>Gusti raspored uz zid</strong>, potrebni broj <strong>visokih</"
+"strong> biljaka: "
+
+#: includes/garden-designer-planer.php:776
+msgid ""
+"<strong>Dense arrangement centrally</strong>, required number of "
+"<strong>tall</strong> plants: "
+msgstr ""
+"<strong>Gusti raspored centralno</strong>, potrebni broj <strong>visokih</"
+"strong> biljaka: "
+
+#: includes/garden-designer-planer.php:788
+msgid ""
+"<strong>Dense arrangement along the wall</strong>, required number of "
+"<strong>medium</strong> plants: "
+msgstr ""
+"<strong>Gusti raspored uz zid</strong>, potrebni broj <strong>srednjih</"
+"strong> biljaka: "
+
+#: includes/garden-designer-planer.php:790
+msgid ""
+"<strong>Dense central arrangement</strong>, required number of "
+"<strong>middle</strong> plants: "
+msgstr ""
+"<strong>Gusti raspored centralno</strong>, potrebni broj <strong>srednjih</"
+"strong> biljaka: "
+
+#: includes/garden-designer-planer.php:802
+msgid ""
+"<strong>Dense arrangement along the wall</strong>, required number of "
+"<strong>low</strong> plants: "
+msgstr ""
+"<strong>Gusti raspored uz zid</strong>, potrebni broj <strong>niskih</"
+"strong> biljaka: "
+
+#: includes/garden-designer-planer.php:804
+msgid ""
+"<strong>Dense arrangement centrally</strong>, required number of "
+"<strong>low</strong> plants: "
+msgstr ""
+"<strong>Gusti raspored centralno</strong>, potrebni broj <strong>niskih</"
+"strong> biljaka: "
+
+#: includes/garden-designer-planer.php:814
+msgid "Shopping List:"
+msgstr "Lista za kupovinu:"
+
+#: includes/garden-designer-planer.php:825
+msgid "Add all to cart"
+msgstr "Dodaj sve u košaricu"
+
+#: includes/garden-designer-script.js:53
+msgid "lenght"
+msgstr "duljina"
+
+#: includes/garden-designer-script.js:57
+msgid "width"
+msgstr "širina"
+
+#: includes/garden-designer-script.js:76
+msgid "Preparing a plan, be patient..."
+msgstr "Pripremam plan, budite strpljivi..."
+
+#: includes/garden-designer-script.js:111
+msgid "You have not selected the type of illumination!"
+msgstr "Niste odabrali tip osvetljenosti!"
+
+#: includes/garden-designer-script.js:125
+msgid "You have not selected a flower bed type!"
+msgstr "Niste odabrali tip gredice!"
+
+#: includes/garden-designer-script.js:136
+msgid "You have not set a dimension!"
+msgstr "Niste postavili dimenzije!"
+
+#: includes/garden-designer-script.js:331
+msgid "The total sum is:"
+msgstr "Ukupna suma je:"
+
+#: includes/garden-designer-script.js:485
+msgid "Continue to the Middle Plants"
+msgstr "Produži ka Srednjim biljkama"
+
+#: includes/garden-designer-script.js:486
+msgid "Continue to Low Plants"
+msgstr "Produži ka Niskim biljkama"
+
+#: includes/garden-designer-script.js:487
+msgid "Add all the selected plants to the shopping list"
+msgstr "Dodaj sve odabrane biljke u listu za kupovinu"
+
+#: woocommerce-garden-designer.php:53
+msgid "Garden Designer Settings"
+msgstr "Dizajner Vrta postavke"
+
+#: woocommerce-garden-designer.php:54
+msgid "Garden Designer"
+msgstr "Dizajner Vrta"
+
+#: woocommerce-garden-designer.php:66
+msgid "\"Garden Designer\" Settings"
+msgstr "\"Dizajner Vrta\" postavke"
+
+#: woocommerce-garden-designer.php:67
+msgid ""
+"\"Garden Designer\" allows your customers to optimize their garden based on "
+"expert recommendations. After selecting the lighting and surface type, the "
+"\"Garden Designer\" calculates the necessary types and quantities of plants. "
+"It also provides a planting layout sketch. Customers can choose from the "
+"available plants in stock and add them to their cart with a single click, "
+"directing them to your payment page."
+msgstr ""
+"\"Dizajner vrta\" omogućava vašim kupcima da optimalno i prema preporukama "
+"stručnjaka uredite svoj vrt. Nakon što odaberu osvjetljenje i tip površine, "
+"\"Dizajner vrta\" će izračunati koliko i koje vrste biljaka su im potrebne, "
+"nacrtati im skicu rasporeda sadnje i omogućiti im da odaberu sve biljke koje "
+"nudite i koje trenutno imate na zalihi. Zatim, jednim klikom, te biljke se "
+"dodaju u košaricu i odmah preusmjeravaju na vašu definiranu stranicu za "
+"naplatu."
+
+#: woocommerce-garden-designer.php:68
+msgid "Rules:"
+msgstr "Pravila:"
+
+#: woocommerce-garden-designer.php:70
+msgid "Lighting is categorized into three types:"
+msgstr "Osvjetljenje se dijeli na tri vrste:"
+
+#: woocommerce-garden-designer.php:73
+msgid "Shade (3 or fewer hours of sunlight)"
+msgstr "Sjena (3 ili manje sati sunčeve svjetlosti)"
+
+#: woocommerce-garden-designer.php:76
+msgid "Flower bed type options:"
+msgstr "Vrsta gredice može biti:"
+
+#: woocommerce-garden-designer.php:77
+msgid "Along a wall (where at least one side touches a wall)"
+msgstr "Pored zida (gdje barem jedna strana dodiruje zid)"
+
+#: woocommerce-garden-designer.php:78
+msgid "Central (where no side touches a wall)"
+msgstr "Centralna (gdje nijedna strana ne dodiruje zid)"
+
+#: woocommerce-garden-designer.php:81
+msgid "Plants are divided into three groups:"
+msgstr "Biljke se dijele u tri grupe:"
+
+#: woocommerce-garden-designer.php:82 woocommerce-garden-designer.php:108
+msgid "Tall plants (90-150 cm)"
+msgstr "Visoke biljke (90-150 cm)"
+
+#: woocommerce-garden-designer.php:83 woocommerce-garden-designer.php:109
+msgid "Medium plants (50-80 cm)"
+msgstr "Srednje biljke (50-80 cm)"
+
+#: woocommerce-garden-designer.php:84 woocommerce-garden-designer.php:110
+msgid "Short plants (15-40 cm)"
+msgstr "Niske biljke (15-40 cm)"
+
+#: woocommerce-garden-designer.php:87
+msgid "Customers can choose between two planting methods:"
+msgstr "Kupac može odabrati između dva načina sadnje:"
+
+#: woocommerce-garden-designer.php:88 woocommerce-garden-designer.php:114
+msgid ""
+"Standard spacing (planting distance: tall 60 cm, medium 50 cm, short 50 cm)"
+msgstr ""
+"Standardni raspored (razmak sadnje: visoke 60 cm, srednje 50 cm, niske 50 cm)"
+
+#: woocommerce-garden-designer.php:89 woocommerce-garden-designer.php:115
+msgid ""
+"Dense spacing (planting distance: tall 40 cm, medium 30 cm, short 30 cm)"
+msgstr ""
+"Gust raspored (razmak sadnje: visoke 40 cm, srednje 30 cm, niske 30 cm)"
+
+#: woocommerce-garden-designer.php:91
+msgid "Instructions for site administrators:"
+msgstr "Upute za administratora stranice:"
+
+#: woocommerce-garden-designer.php:93
+msgid ""
+"Before installing \"Garden Designer,\" ensure that WooCommerce is already "
+"installed."
+msgstr ""
+"Prije instaliranja \"Dizajnera vrta\" potrebno je prethodno imati instaliran "
+"WooCommerce."
+
+#: woocommerce-garden-designer.php:94
+msgid "Define tags for the following characteristics:"
+msgstr "Trebate definirati oznake koje ćete koristiti za:"
+
+#: woocommerce-garden-designer.php:96
+msgid "Lighting:"
+msgstr "Osvjetljenost:"
+
+#: woocommerce-garden-designer.php:97
+msgid "Sun (e.g. sun, light)"
+msgstr "Sunce (na primjer: sunce, svjetlo)"
+
+#: woocommerce-garden-designer.php:98
+msgid "Partial shade (e.g. partial-shade, semi-dark)"
+msgstr "Polusjena (na primjer: polusjena, polutamno)"
+
+#: woocommerce-garden-designer.php:99
+msgid "Shade (e.g. shade, dark)"
+msgstr "Sjena (na primjer: sjena, tamno)"
+
+#: woocommerce-garden-designer.php:102
+msgid "Flower bed type:"
+msgstr "Vrsta gredice:"
+
+#: woocommerce-garden-designer.php:103
+msgid "Along a wall"
+msgstr "Pored zida"
+
+#: woocommerce-garden-designer.php:107
+msgid "Plant height:"
+msgstr "Visina biljaka:"
+
+#: woocommerce-garden-designer.php:113
+msgid "Planting method:"
+msgstr "Način sadnje:"
+
+#: woocommerce-garden-designer.php:118
+msgid ""
+"After defining the tags, assign them to each of your products or the plants "
+"you offer for sale."
+msgstr ""
+"Nakon definiranja oznaka, dodijelite ih svakom od vaših proizvoda ili svakoj "
+"biljci koju nudite na prodaju."
+
+#: woocommerce-garden-designer.php:119
+msgid ""
+"\"Garden Designer\" will consider only in-stock products and present them to "
+"customers."
+msgstr ""
+"\"Dizajner vrta\" će uzeti u obzir samo proizvode koji su na zalihama i "
+"ponuditi ih kupcima."
+
+#: woocommerce-garden-designer.php:120
+msgid ""
+"After selecting desired plants, customers will be directly redirected to "
+"your designated payment page."
+msgstr ""
+"Nakon odabira željenih biljaka, kupac će biti izravno preusmjeren na vašu "
+"definiranu stranicu za naplatu."
+
+#: woocommerce-garden-designer.php:121
+msgid ""
+"To use \"Garden Designer\", insert the following shortcode on any page: "
+"[garden_designer]."
+msgstr ""
+"Da biste koristili \"Dizajner vrta\", umetnite sljedeći kratki kod na bilo "
+"koju stranicu: [garden_designer]."
+
+#: woocommerce-garden-designer.php:128
+msgid ""
+"<strong>Note</strong>: You can enter only one tag without quotation marks "
+"and other special characters in the corresponding field for each tag.<br /"
+">After clicking the \"Save Changes\" button, the tags will be saved in the "
+"component's settings and automatically added to the WooCommerce \"Tags\" set."
+"<br />In order for the component to function properly, after determining the "
+"tags, you need to assign them to each of your products, that is, to each "
+"herb that you offer for sale.<br />You add the \"brightness\" tags as you "
+"defined them.<br />You provide the \"width\" and \"height\" labels in the "
+"following format: label number cm (where \"label\" is the label you defined "
+"in the settings, \"number\" is the corresponding width or height of the "
+"plant expressed in centimeters, \"cm\" is for informational display of the "
+"dimension. Note that there are spaces between the sections.)<br />For "
+"example:<br />- If the label is \"W:\" and the plant is \"30 cm\" wide, then "
+"enter \"W: 30 cm\"<br />- If the mark is \"H:\" and the plant is \"120 cm "
+"high\", then enter \"H: 120 cm\"<br />Unfortunately, tags can only be typed "
+"in one language, although the component itself can be used in multiple "
+"languages."
+msgstr ""
+"<strong>Napomena</strong>: Možete unijeti samo jednu oznaku bez navodnika i "
+"drugih posebnih znakova u odgovarajuće polje za svaku oznaku.<br />Nakon "
+"klika na gumb \"Spremi promjene\", oznake će biti spremljene u postavkama "
+"komponente i automatski dodane WooCommerce skupu \"Oznake\".<br />Kako bi "
+"komponenta ispravno funkcionirala, nakon određivanja oznaka, potrebno ih je "
+"dodijeliti svakom svom proizvodu, odnosno svakoj biljci koju nudite u "
+"prodaji.<br />Oznake za \"osvetljenost\" dodajete onako kako ste ih "
+"definirali.<br />Oznake \"širine\" i \"visine\" dajete u sljedećem formatu: "
+"broj oznake cm (gdje je \"oznaka\" oznaka koju ste definirali u postavkama, "
+"\"broj\" je odgovarajuća širina ili visina biljke izražena u centimetrima, "
+"\"cm\" služi za informativni prikaz dimenzija. Imajte na umu da postoje "
+"razmaci između odjeljaka.)<br />Na primjer:<br />- Ako je oznaka \"Š:\", a "
+"biljka je široka \"30 cm\", unesite \"Š: 30 cm\"<br />- Ako je oznaka \"V:"
+"\", a biljka \"120 cm visoka\", unesite \"V: 120 cm\"<br />Nažalost, oznake "
+"se mogu upisati samo na jednom jeziku, iako se sama komponenta može "
+"koristiti na više jezika."
+
+#: woocommerce-garden-designer.php:131
+msgid "Shortcode Usage"
+msgstr "Upotreba kratkog koda"
+
+#: woocommerce-garden-designer.php:132
+msgid "To use the \"Garden designer\", simply use the following shortcode:"
+msgstr ""
+"Da bi ste koristili \"Dizajner Vrta\" jednostavno koristite ovaj kratki kod:"
+
+#: woocommerce-garden-designer.php:133
+msgid "Shortcode is copied to Clipboard!"
+msgstr "Kratki kod je kopiran u memoriju!"
+
+#: woocommerce-garden-designer.php:136
+msgid "Copy shortcode to Clipboard"
+msgstr "Kopiraj kratki kod u memoriju"
+
+#: woocommerce-garden-designer.php:138
+msgid "Note:"
+msgstr "Napomena:"
+
+#: woocommerce-garden-designer.php:138
+msgid ""
+"You can also use \"Garden Designer\" to facilitate garden planning for your "
+"clients."
+msgstr ""
+"\"Dizajner vrta\" možete koristiti i vi za olakšavanje planiranja vrtova za "
+"svoje klijente."
+
+#: woocommerce-garden-designer.php:139
+msgid "Good luck with your sales!"
+msgstr "Sretno s prodajom!"
+
+#: woocommerce-garden-designer.php:168
+msgid "Tag Settings"
+msgstr "Postavke za oznake"
+
+#: woocommerce-garden-designer.php:170
+msgid "Sun Tag"
+msgstr "Oznaka za sunce"
+
+#: woocommerce-garden-designer.php:171
+msgid "Part Shade Tag"
+msgstr "Oznaka za polusjenu"
+
+#: woocommerce-garden-designer.php:172
+msgid "Shade Tag"
+msgstr "Oznaka za sjenu"
+
+#: woocommerce-garden-designer.php:173
+msgid "Width Tag"
+msgstr "Oznaka za širinu"
+
+#: woocommerce-garden-designer.php:174
+msgid "Height Tag"
+msgstr "Oznaka za visinu"
+
+#: woocommerce-garden-designer.php:178
+msgid "Enter your custom tags for garden designer settings."
+msgstr "Unesite po želji vaše oznake za \"Dizajner Vrta\"."
