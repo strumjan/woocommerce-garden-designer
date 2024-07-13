@@ -227,6 +227,12 @@ var length = window.globalLength;
     isRotated = !isRotated;
 }
 
+var visokiproductsIDandQuantity = '';
+var sredniproductsIDandQuantity = '';
+var niskiproductsIDandQuantity = '';
+let visokiproductsIDandQuantitySet = false;
+let sredniproductsIDandQuantitySet = false;
+let niskiproductsIDandQuantitySet = false;
 var productsIDandQuantity = '';
 // Пренесување на селектираните производи во полињата за приказ
 async function showSelectedProducts() {
@@ -259,9 +265,14 @@ async function showSelectedProducts() {
 
 			visokiList.appendChild(listItem);
 			// Додавање на ID и количина во productsIDandQuantity
-            //productsIDandQuantity += checkbox.value + ':' + quantity + ',';
-			var cleanedValue = checkbox.value.replace(odabrano, '');
-			productsIDandQuantity += cleanedValue + ':' + quantity + ',';
+            if (!visokiproductsIDandQuantitySet) {
+                var cleanedValue = checkbox.value.replace(odabrano, '');
+                visokiproductsIDandQuantity += cleanedValue + ':' + quantity + ',';
+                listForAddToCart(visokiproductsIDandQuantity);
+            }
+			
+            visokiproductsIDandQuantitySet = true;
+            
 		}
 	}
 
@@ -277,10 +288,12 @@ async function showSelectedProducts() {
 
 			sredniList.appendChild(listItem);
 			// Додавање на ID и количина во productsIDandQuantity
-
-            //productsIDandQuantity += checkbox.value + ':' + quantity + ',';
+            if (!sredniproductsIDandQuantitySet) {
 			var cleanedValue = checkbox.value.replace(odabrano, '');
-			productsIDandQuantity += cleanedValue + ':' + quantity + ',';
+			sredniproductsIDandQuantity += cleanedValue + ':' + quantity + ',';
+            listForAddToCart(sredniproductsIDandQuantity);
+            }
+            sredniproductsIDandQuantitySet = true;
 		}
 	}
 
@@ -295,10 +308,12 @@ async function showSelectedProducts() {
 
 			niskiList.appendChild(listItem);
 			// Додавање на ID и количина во productsIDandQuantity
-
-            //productsIDandQuantity += checkbox.value + ':' + quantity + ',';
+            if (!niskiproductsIDandQuantitySet) {
 			var cleanedValue = checkbox.value.replace(odabrano, '');
-			productsIDandQuantity += cleanedValue + ':' + quantity + ',';
+			niskiproductsIDandQuantity += cleanedValue + ':' + quantity + ',';
+            listForAddToCart(niskiproductsIDandQuantity);
+            }
+            niskiproductsIDandQuantitySet = true;
 		}
 	}
 
@@ -307,6 +322,21 @@ await presmetka(productsIDandQuantity);
 	return false;
 }
 // Крај на пренесување на селектираните производи во полињата за приказ
+
+function listForAddToCart(listtype) {
+    switch (listtype) {
+        case visokiproductsIDandQuantity:
+            productsIDandQuantity = listtype + sredniproductsIDandQuantity + niskiproductsIDandQuantity;
+            break;
+        case sredniproductsIDandQuantity:
+            productsIDandQuantity = visokiproductsIDandQuantity + listtype + niskiproductsIDandQuantity;
+            break;
+        case niskiproductsIDandQuantity:
+            productsIDandQuantity = visokiproductsIDandQuantity + sredniproductsIDandQuantity + listtype; 
+            break;
+    }
+    return;
+}
 
 function kaNaplati() {
     var addToCartUrl = new URL(checkoutPageUrl);
@@ -349,6 +379,13 @@ function clearForm(type) {
 	setTimeout(() => {
 	document.getElementById('total').innerHTML = ""; // Исчисти го 'total'
 	}, 1000); // Задржи за 1 секунда
+    clearProductsIDandQuantity(type);
+}
+
+function clearProductsIDandQuantity(type) {
+    var variableName = type + 'productsIDandQuantity';
+    window[variableName] = '';
+    listForAddToCart(variableName);
 }
 
 function clearCounts(type) {
