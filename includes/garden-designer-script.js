@@ -309,12 +309,11 @@ await presmetka(productsIDandQuantity);
 // Крај на пренесување на селектираните производи во полињата за приказ
 
 function kaNaplati() {
-		// Креирање на addToCartUrl
-    //var checkoutUrl = 'https://www.opgtvrtko.hr/naciniplacanja/'; // Заменете го ова со вистинската URL адреса за checkout
     var addToCartUrl = new URL(checkoutPageUrl);
     addToCartUrl.searchParams.append('add-to-cart', productsIDandQuantity);
 	window.location.href = addToCartUrl.href;
 }
+
 // Пресметка на цените
 async function presmetka(productsIDandQuantity){
 	showTotal = true;

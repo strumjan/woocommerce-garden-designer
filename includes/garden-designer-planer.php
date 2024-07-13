@@ -84,7 +84,7 @@ function get_products_by_tags_and_stock($tags) {
 // Функција за групирање на производите според висина
 function group_products_by_height($products) {
     $high_array = $medium_array = $low_array = array();
-    global $shineType;
+    global $shineType, $height_param;
 
     foreach ($products as $product) {
         $tags = wp_get_post_terms($product->ID, 'product_tag', array('fields' => 'names'));
