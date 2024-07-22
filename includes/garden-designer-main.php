@@ -2,7 +2,7 @@
 $gardenDesignerStyle = plugins_url( 'garden-designer-style.css', __FILE__ );
 wp_enqueue_style( 'garden-designer-style', $gardenDesignerStyle );
 
-//преземање на таговите од сочуваните во компонентата
+// Retrieving tags stored in the component
 $options = get_option('woocommerce_garden_designer_options');
 $height_param = $options['height_tag'];
 $width_param = $options['width_tag'];

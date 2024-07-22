@@ -2,8 +2,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: WooCommerce Garden Designer\n"
-"POT-Creation-Date: 2024-07-01 10:30+0200\n"
-"PO-Revision-Date: 2024-07-01 10:31+0200\n"
+"POT-Creation-Date: 2024-07-22 07:11+0200\n"
+"PO-Revision-Date: 2024-07-22 07:12+0200\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: mk\n"
@@ -22,11 +22,11 @@ msgstr ""
 msgid "1. Select the brightness"
 msgstr "1. Избери осветленост"
 
-#: includes/garden-designer-main.php:18 woocommerce-garden-designer.php:71
+#: includes/garden-designer-main.php:18 woocommerce-garden-designer.php:72
 msgid "Sun (6 or more hours of sunlight)"
 msgstr "Сонце (6 и повеќе часови сончева светлина)"
 
-#: includes/garden-designer-main.php:22 woocommerce-garden-designer.php:72
+#: includes/garden-designer-main.php:22 woocommerce-garden-designer.php:73
 msgid "Partial shade (4-6 hours of sunlight)"
 msgstr "Полусенка (4-6 часови сончева светлина)"
 
@@ -42,7 +42,7 @@ msgstr "2. Избери тип на гредичка"
 msgid "Against the wall"
 msgstr "Покрај ѕид"
 
-#: includes/garden-designer-main.php:37 woocommerce-garden-designer.php:104
+#: includes/garden-designer-main.php:37 woocommerce-garden-designer.php:105
 msgid "Central"
 msgstr "Централно"
 
@@ -62,75 +62,75 @@ msgstr "Ширина (во см)"
 msgid "Confirm selection"
 msgstr "Потврди го изборот"
 
-#: includes/garden-designer-planer.php:30
+#: includes/garden-designer-planer.php:33
 msgid "Sun"
 msgstr "Сонце"
 
-#: includes/garden-designer-planer.php:33
+#: includes/garden-designer-planer.php:36
 msgid "Partial shade"
 msgstr "Полусенка"
 
-#: includes/garden-designer-planer.php:36
+#: includes/garden-designer-planer.php:39
 msgid "Shade"
 msgstr "Сенка"
 
-#: includes/garden-designer-planer.php:41
-#: includes/garden-designer-planer.php:45
+#: includes/garden-designer-planer.php:44
+#: includes/garden-designer-planer.php:48
 msgid "Illumination: "
 msgstr "Осветленост: "
 
-#: includes/garden-designer-planer.php:41
+#: includes/garden-designer-planer.php:44
 msgid "Type of flower bed: against the wall"
 msgstr "Тип на гредичка: покрај ѕид"
 
-#: includes/garden-designer-planer.php:42
-#: includes/garden-designer-planer.php:46
+#: includes/garden-designer-planer.php:45
+#: includes/garden-designer-planer.php:49
 msgid "Field surface: "
 msgstr "Површина на теренот: "
 
-#: includes/garden-designer-planer.php:45
+#: includes/garden-designer-planer.php:48
 msgid "Type of flower bed: central"
 msgstr "Тип на гредичка: централно"
 
-#: includes/garden-designer-planer.php:48
+#: includes/garden-designer-planer.php:51
 msgid "You have not selected the type of flower bed."
 msgstr "Не избра тип на гредичка."
 
-#: includes/garden-designer-planer.php:52
+#: includes/garden-designer-planer.php:55
 msgid "Legend: "
 msgstr "Легенда: "
 
-#: includes/garden-designer-planer.php:53
+#: includes/garden-designer-planer.php:56
 msgid "&nbsp;Tall plants (90-150 cm)"
 msgstr "&nbsp;Високи растенија (90-150 см)"
 
-#: includes/garden-designer-planer.php:54
+#: includes/garden-designer-planer.php:57
 msgid "&nbsp;Medium plants (50-80 cm)"
 msgstr "&nbsp;Средни растенија (50-80 см)"
 
-#: includes/garden-designer-planer.php:55
+#: includes/garden-designer-planer.php:58
 msgid "&nbsp;Low plants (15-40 cm)"
 msgstr "&nbsp;Ниски растенија (15-40 см)"
 
-#: includes/garden-designer-planer.php:177
+#: includes/garden-designer-planer.php:173
 msgid "In stock: "
 msgstr "Залиха: "
 
-#: includes/garden-designer-planer.php:182
+#: includes/garden-designer-planer.php:178
 msgid "We have a lot"
 msgstr "Многу"
 
-#: includes/garden-designer-planer.php:186
+#: includes/garden-designer-planer.php:182
 msgid "We don't currently have any"
 msgstr "Нема"
 
-#: includes/garden-designer-planer.php:192
-#: includes/garden-designer-script.js:249
+#: includes/garden-designer-planer.php:188
+#: includes/garden-designer-script.js:217
 msgid "quantity:"
 msgstr "количина:"
 
-#: includes/garden-designer-planer.php:589
-#: includes/garden-designer-planer.php:655
+#: includes/garden-designer-planer.php:584
+#: includes/garden-designer-planer.php:650
 msgid ""
 "First, choose whether you want a standard or dense arrangement of plants. "
 "And in the following steps you will choose tall, medium and short plants for "
@@ -140,66 +140,66 @@ msgstr ""
 "следните чекори ќе избереш високи, средни и ниски билки за својата цветна "
 "гредичка."
 
-#: includes/garden-designer-planer.php:590
+#: includes/garden-designer-planer.php:585
 msgid "Against the wall, standard layout"
 msgstr "Покрај ѕид, стандарден распоред"
 
-#: includes/garden-designer-planer.php:590
-#: includes/garden-designer-planer.php:656
+#: includes/garden-designer-planer.php:585
+#: includes/garden-designer-planer.php:651
 msgid "(Planting distance: high 60 cm, medium 50 cm, low 50 cm)"
 msgstr "(Растојание на садење: високи 60 см, средни 50 см, ниски 50 см)"
 
-#: includes/garden-designer-planer.php:591
-#: includes/garden-designer-planer.php:623
+#: includes/garden-designer-planer.php:586
+#: includes/garden-designer-planer.php:618
 msgid "wall"
 msgstr "ѕид"
 
-#: includes/garden-designer-planer.php:618
-#: includes/garden-designer-planer.php:650
-#: includes/garden-designer-planer.php:684
-#: includes/garden-designer-planer.php:716
+#: includes/garden-designer-planer.php:613
+#: includes/garden-designer-planer.php:645
+#: includes/garden-designer-planer.php:679
+#: includes/garden-designer-planer.php:711
 msgid "Rotate"
 msgstr "Заврти"
 
-#: includes/garden-designer-planer.php:619
-#: includes/garden-designer-planer.php:685
+#: includes/garden-designer-planer.php:614
+#: includes/garden-designer-planer.php:680
 msgid ""
 "Select <strong>standard layout</strong> and proceed to select tall plants"
 msgstr ""
 "Избери <strong>стандарден распоред</strong> и продолжи кон бирање високи "
 "билки"
 
-#: includes/garden-designer-planer.php:622
+#: includes/garden-designer-planer.php:617
 msgid "Along the wall, a dense layout"
 msgstr "Покрај ѕид, густ распоред"
 
-#: includes/garden-designer-planer.php:622
-#: includes/garden-designer-planer.php:688
+#: includes/garden-designer-planer.php:617
+#: includes/garden-designer-planer.php:683
 msgid "(Planting distance: high 40 cm, medium 30 cm, low 30 cm)"
 msgstr "(Растојание на садење: високи 40 см, средни 30 см, ниски 30 см)"
 
-#: includes/garden-designer-planer.php:651
-#: includes/garden-designer-planer.php:717
+#: includes/garden-designer-planer.php:646
+#: includes/garden-designer-planer.php:712
 msgid ""
 "Choose a <strong>dense arrangement</strong> and proceed to select tall plants"
 msgstr ""
 "Избери <strong>густ распоред</strong> и продолжи кон бирање високи билки"
 
-#: includes/garden-designer-planer.php:656
+#: includes/garden-designer-planer.php:651
 msgid "Central, standard layout"
 msgstr "Централно, стандарден распоред"
 
-#: includes/garden-designer-planer.php:688
+#: includes/garden-designer-planer.php:683
 msgid "Central, dense layout"
 msgstr "Централно, густ распоред"
 
-#: includes/garden-designer-planer.php:726
-#: includes/garden-designer-planer.php:771
-#: includes/garden-designer-planer.php:816
+#: includes/garden-designer-planer.php:721
+#: includes/garden-designer-planer.php:766
+#: includes/garden-designer-planer.php:811
 msgid "Tall plants:"
 msgstr "Високи билки:"
 
-#: includes/garden-designer-planer.php:729
+#: includes/garden-designer-planer.php:724
 msgid ""
 "<strong>Standard arrangement along the wall</strong>, required number of "
 "<strong>tall</strong> plants: "
@@ -207,22 +207,22 @@ msgstr ""
 "<strong>Стандарден распоред покрај ѕид</strong>, потребен број "
 "<strong>високи</strong> билки: "
 
-#: includes/garden-designer-planer.php:729
-#: includes/garden-designer-planer.php:731
-#: includes/garden-designer-planer.php:743
-#: includes/garden-designer-planer.php:745
-#: includes/garden-designer-planer.php:757
-#: includes/garden-designer-planer.php:759
-#: includes/garden-designer-planer.php:774
-#: includes/garden-designer-planer.php:776
-#: includes/garden-designer-planer.php:788
-#: includes/garden-designer-planer.php:790
-#: includes/garden-designer-planer.php:802
-#: includes/garden-designer-planer.php:804
+#: includes/garden-designer-planer.php:724
+#: includes/garden-designer-planer.php:726
+#: includes/garden-designer-planer.php:738
+#: includes/garden-designer-planer.php:740
+#: includes/garden-designer-planer.php:752
+#: includes/garden-designer-planer.php:754
+#: includes/garden-designer-planer.php:769
+#: includes/garden-designer-planer.php:771
+#: includes/garden-designer-planer.php:783
+#: includes/garden-designer-planer.php:785
+#: includes/garden-designer-planer.php:797
+#: includes/garden-designer-planer.php:799
 msgid "Selected:"
 msgstr "Избрано:"
 
-#: includes/garden-designer-planer.php:731
+#: includes/garden-designer-planer.php:726
 msgid ""
 "<strong>Standard layout central</strong>, required number of <strong>tall</"
 "strong> plants: "
@@ -230,30 +230,30 @@ msgstr ""
 "<strong>Стандарден распоред централно</strong>, потребен број "
 "<strong>високи</strong> билки: "
 
-#: includes/garden-designer-planer.php:735
-#: includes/garden-designer-planer.php:780
-#: includes/garden-designer-script.js:490
-#: includes/garden-designer-script.js:568
-#: includes/garden-designer-script.js:574
+#: includes/garden-designer-planer.php:730
+#: includes/garden-designer-planer.php:775
+#: includes/garden-designer-script.js:471
+#: includes/garden-designer-script.js:542
+#: includes/garden-designer-script.js:548
 msgid "Please select tall plants first"
 msgstr "Молиме прво избери високи билки"
 
-#: includes/garden-designer-planer.php:736
-#: includes/garden-designer-planer.php:750
-#: includes/garden-designer-planer.php:764
-#: includes/garden-designer-planer.php:781
-#: includes/garden-designer-planer.php:795
-#: includes/garden-designer-planer.php:809
+#: includes/garden-designer-planer.php:731
+#: includes/garden-designer-planer.php:745
+#: includes/garden-designer-planer.php:759
+#: includes/garden-designer-planer.php:776
+#: includes/garden-designer-planer.php:790
+#: includes/garden-designer-planer.php:804
 msgid "Clear selection"
 msgstr "Исчисти го изборот"
 
-#: includes/garden-designer-planer.php:740
-#: includes/garden-designer-planer.php:785
-#: includes/garden-designer-planer.php:819
+#: includes/garden-designer-planer.php:735
+#: includes/garden-designer-planer.php:780
+#: includes/garden-designer-planer.php:814
 msgid "Medium plants:"
 msgstr "Средни билки:"
 
-#: includes/garden-designer-planer.php:743
+#: includes/garden-designer-planer.php:738
 msgid ""
 "<strong>Standard arrangement along the wall</strong>, required number of "
 "<strong>medium</strong> plants: "
@@ -261,7 +261,7 @@ msgstr ""
 "<strong>Стандарден распоред покрај ѕид</strong>, потребен број "
 "<strong>средни</strong> билки: "
 
-#: includes/garden-designer-planer.php:745
+#: includes/garden-designer-planer.php:740
 msgid ""
 "<strong>Standard layout central</strong>, required number of <strong>middle</"
 "strong> plants: "
@@ -269,21 +269,21 @@ msgstr ""
 "<strong>Стандарден распоред централно</strong>, потребен број "
 "<strong>средни</strong> билки: "
 
-#: includes/garden-designer-planer.php:749
-#: includes/garden-designer-planer.php:794
-#: includes/garden-designer-script.js:491
-#: includes/garden-designer-script.js:570
-#: includes/garden-designer-script.js:576
+#: includes/garden-designer-planer.php:744
+#: includes/garden-designer-planer.php:789
+#: includes/garden-designer-script.js:472
+#: includes/garden-designer-script.js:544
+#: includes/garden-designer-script.js:550
 msgid "Please select medium plants first"
 msgstr "Молиме прво избери средни билки"
 
-#: includes/garden-designer-planer.php:754
-#: includes/garden-designer-planer.php:799
-#: includes/garden-designer-planer.php:822
+#: includes/garden-designer-planer.php:749
+#: includes/garden-designer-planer.php:794
+#: includes/garden-designer-planer.php:817
 msgid "Low plants:"
 msgstr "Ниски билки:"
 
-#: includes/garden-designer-planer.php:757
+#: includes/garden-designer-planer.php:752
 msgid ""
 "<strong>Standard arrangement along the wall</strong>, required number of "
 "<strong>low</strong> plants: "
@@ -291,7 +291,7 @@ msgstr ""
 "<strong>Стандарден распоред покрај ѕид</strong>, потребен број "
 "<strong>ниски</strong> билки: "
 
-#: includes/garden-designer-planer.php:759
+#: includes/garden-designer-planer.php:754
 msgid ""
 "<strong>Standard layout central</strong>, the required number of "
 "<strong>low</strong> plants is: "
@@ -299,15 +299,15 @@ msgstr ""
 "<strong>Стандарден распоред централно</strong>, потребен број <strong>ниски</"
 "strong> билки: "
 
-#: includes/garden-designer-planer.php:763
-#: includes/garden-designer-planer.php:808
-#: includes/garden-designer-script.js:492
-#: includes/garden-designer-script.js:572
-#: includes/garden-designer-script.js:578
+#: includes/garden-designer-planer.php:758
+#: includes/garden-designer-planer.php:803
+#: includes/garden-designer-script.js:473
+#: includes/garden-designer-script.js:546
+#: includes/garden-designer-script.js:552
 msgid "Please select short plants first"
 msgstr "Молиме прво избери ниски билки"
 
-#: includes/garden-designer-planer.php:774
+#: includes/garden-designer-planer.php:769
 msgid ""
 "<strong>Dense arrangement along the wall</strong>, required number of "
 "<strong>tall</strong> plants: "
@@ -315,7 +315,7 @@ msgstr ""
 "<strong>Густ распоред покрај ѕид</strong>, потребен број <strong>високи</"
 "strong> билки: "
 
-#: includes/garden-designer-planer.php:776
+#: includes/garden-designer-planer.php:771
 msgid ""
 "<strong>Dense arrangement centrally</strong>, required number of "
 "<strong>tall</strong> plants: "
@@ -323,7 +323,7 @@ msgstr ""
 "<strong>Густ распоред централно</strong>, потребен број <strong>високи</"
 "strong> билки: "
 
-#: includes/garden-designer-planer.php:788
+#: includes/garden-designer-planer.php:783
 msgid ""
 "<strong>Dense arrangement along the wall</strong>, required number of "
 "<strong>medium</strong> plants: "
@@ -331,7 +331,7 @@ msgstr ""
 "<strong>Густ распоред покрај ѕид</strong>, потребен број <strong>средни</"
 "strong> билки: "
 
-#: includes/garden-designer-planer.php:790
+#: includes/garden-designer-planer.php:785
 msgid ""
 "<strong>Dense central arrangement</strong>, required number of "
 "<strong>middle</strong> plants: "
@@ -339,7 +339,7 @@ msgstr ""
 "<strong>Густ распоред централно</strong>, потребен број <strong>средни</"
 "strong> билки: "
 
-#: includes/garden-designer-planer.php:802
+#: includes/garden-designer-planer.php:797
 msgid ""
 "<strong>Dense arrangement along the wall</strong>, required number of "
 "<strong>low</strong> plants: "
@@ -347,7 +347,7 @@ msgstr ""
 "<strong>Густ распоред покрај ѕид</strong>, потребен број <strong>ниски</"
 "strong> билки: "
 
-#: includes/garden-designer-planer.php:804
+#: includes/garden-designer-planer.php:799
 msgid ""
 "<strong>Dense arrangement centrally</strong>, required number of "
 "<strong>low</strong> plants: "
@@ -355,67 +355,67 @@ msgstr ""
 "<strong>Густ распоред централно</strong>, потребен број <strong>ниски</"
 "strong> билки: "
 
-#: includes/garden-designer-planer.php:814
+#: includes/garden-designer-planer.php:809
 msgid "Shopping List:"
 msgstr "Листа за купување:"
 
-#: includes/garden-designer-planer.php:825
+#: includes/garden-designer-planer.php:820
 msgid "Add all to cart"
 msgstr "Додади сѐ во кошничка"
 
-#: includes/garden-designer-script.js:53
+#: includes/garden-designer-script.js:47
 msgid "lenght"
 msgstr "должина"
 
-#: includes/garden-designer-script.js:57
+#: includes/garden-designer-script.js:51
 msgid "width"
 msgstr "ширина"
 
-#: includes/garden-designer-script.js:76
+#: includes/garden-designer-script.js:65
 msgid "Preparing a plan, be patient..."
 msgstr "Трпение, го припремам планот..."
 
-#: includes/garden-designer-script.js:111
+#: includes/garden-designer-script.js:92
 msgid "You have not selected the type of illumination!"
 msgstr "Не одбравте тип на осветленост!"
 
-#: includes/garden-designer-script.js:125
+#: includes/garden-designer-script.js:105
 msgid "You have not selected a flower bed type!"
 msgstr "Не одбравте тип на гредичка!"
 
-#: includes/garden-designer-script.js:136
+#: includes/garden-designer-script.js:113
 msgid "You have not set a dimension!"
 msgstr "Немате поставено димензии!"
 
-#: includes/garden-designer-script.js:331
+#: includes/garden-designer-script.js:319
 msgid "The total sum is:"
 msgstr "Вкупната сума е:"
 
-#: includes/garden-designer-script.js:485
+#: includes/garden-designer-script.js:466
 msgid "Continue to the Middle Plants"
 msgstr "Продолжи кон Средни билки"
 
-#: includes/garden-designer-script.js:486
+#: includes/garden-designer-script.js:467
 msgid "Continue to Low Plants"
 msgstr "Продолжи кон Ниски билки"
 
-#: includes/garden-designer-script.js:487
+#: includes/garden-designer-script.js:468
 msgid "Add all the selected plants to the shopping list"
 msgstr "Додади ги одбраните во Листата за купување"
 
-#: woocommerce-garden-designer.php:53
+#: woocommerce-garden-designer.php:54
 msgid "Garden Designer Settings"
 msgstr "„Дизајнер на градина“ поставки"
 
-#: woocommerce-garden-designer.php:54
+#: woocommerce-garden-designer.php:55
 msgid "Garden Designer"
 msgstr "Дизајнер на градина"
 
-#: woocommerce-garden-designer.php:66
+#: woocommerce-garden-designer.php:67
 msgid "\"Garden Designer\" Settings"
 msgstr "„Дизајнер на градина“ поставки"
 
-#: woocommerce-garden-designer.php:67
+#: woocommerce-garden-designer.php:68
 msgid ""
 "\"Garden Designer\" allows your customers to optimize their garden based on "
 "expert recommendations. After selecting the lighting and surface type, the "
@@ -433,68 +433,68 @@ msgstr ""
 "во кошничка и веднаш да бидат префрлени на вашата дефинирана страница за "
 "наплата."
 
-#: woocommerce-garden-designer.php:68
+#: woocommerce-garden-designer.php:69
 msgid "Rules:"
 msgstr "Правила:"
 
-#: woocommerce-garden-designer.php:70
+#: woocommerce-garden-designer.php:71
 msgid "Lighting is categorized into three types:"
 msgstr "Осветленоста се дели на три вида:"
 
-#: woocommerce-garden-designer.php:73
+#: woocommerce-garden-designer.php:74
 msgid "Shade (3 or fewer hours of sunlight)"
 msgstr "Сенка (3 или помалку часови сончева светлина)"
 
-#: woocommerce-garden-designer.php:76
+#: woocommerce-garden-designer.php:77
 msgid "Flower bed type options:"
 msgstr "Типот на гредичка може да биде:"
 
-#: woocommerce-garden-designer.php:77
+#: woocommerce-garden-designer.php:78
 msgid "Along a wall (where at least one side touches a wall)"
 msgstr "Покрај ѕид (каде барем една страна допира до ѕид)"
 
-#: woocommerce-garden-designer.php:78
+#: woocommerce-garden-designer.php:79
 msgid "Central (where no side touches a wall)"
 msgstr "Централно (каде ниту една страна не допира до ѕид)"
 
-#: woocommerce-garden-designer.php:81
+#: woocommerce-garden-designer.php:82
 msgid "Plants are divided into three groups:"
 msgstr "Растенијата се делат во три групи:"
 
-#: woocommerce-garden-designer.php:82 woocommerce-garden-designer.php:108
+#: woocommerce-garden-designer.php:83 woocommerce-garden-designer.php:109
 msgid "Tall plants (90-150 cm)"
 msgstr "Високи растенија (90-150 cm)"
 
-#: woocommerce-garden-designer.php:83 woocommerce-garden-designer.php:109
+#: woocommerce-garden-designer.php:84 woocommerce-garden-designer.php:110
 msgid "Medium plants (50-80 cm)"
 msgstr "Средни растенија (50-80 cm)"
 
-#: woocommerce-garden-designer.php:84 woocommerce-garden-designer.php:110
+#: woocommerce-garden-designer.php:85 woocommerce-garden-designer.php:111
 msgid "Short plants (15-40 cm)"
 msgstr "Ниски растенија (15-40 cm)"
 
-#: woocommerce-garden-designer.php:87
+#: woocommerce-garden-designer.php:88
 msgid "Customers can choose between two planting methods:"
 msgstr "Купувачот може да одбере помеѓу два начини на садење:"
 
-#: woocommerce-garden-designer.php:88 woocommerce-garden-designer.php:114
+#: woocommerce-garden-designer.php:89 woocommerce-garden-designer.php:115
 msgid ""
 "Standard spacing (planting distance: tall 60 cm, medium 50 cm, short 50 cm)"
 msgstr ""
 "Стандарден распоред (Растојание на садење: високи 60 cm, средни 50 cm, ниски "
 "50 cm)"
 
-#: woocommerce-garden-designer.php:89 woocommerce-garden-designer.php:115
+#: woocommerce-garden-designer.php:90 woocommerce-garden-designer.php:116
 msgid ""
 "Dense spacing (planting distance: tall 40 cm, medium 30 cm, short 30 cm)"
 msgstr ""
 "Густ распоред (Растојание на садење: високи 40 cm, средни 30 cm, ниски 30 cm)"
 
-#: woocommerce-garden-designer.php:91
+#: woocommerce-garden-designer.php:92
 msgid "Instructions for site administrators:"
 msgstr "Упатсво за администраторите на страницата:"
 
-#: woocommerce-garden-designer.php:93
+#: woocommerce-garden-designer.php:94
 msgid ""
 "Before installing \"Garden Designer,\" ensure that WooCommerce is already "
 "installed."
@@ -502,43 +502,43 @@ msgstr ""
 "За да инсталирате „Дизајнер на градина“ потребно е претходно да имате "
 "инсталирано WooCommerce."
 
-#: woocommerce-garden-designer.php:94
+#: woocommerce-garden-designer.php:95
 msgid "Define tags for the following characteristics:"
 msgstr "Потребно е да ги дефинирате ознаките кои ќе ги користите за:"
 
-#: woocommerce-garden-designer.php:96
+#: woocommerce-garden-designer.php:97
 msgid "Lighting:"
 msgstr "Осветленост:"
 
-#: woocommerce-garden-designer.php:97
+#: woocommerce-garden-designer.php:98
 msgid "Sun (e.g. sun, light)"
 msgstr "Сонце (на пример: сонце, светло)"
 
-#: woocommerce-garden-designer.php:98
+#: woocommerce-garden-designer.php:99
 msgid "Partial shade (e.g. partial-shade, semi-dark)"
 msgstr "Полусенка (на пример: полусенка, полутемно)"
 
-#: woocommerce-garden-designer.php:99
+#: woocommerce-garden-designer.php:100
 msgid "Shade (e.g. shade, dark)"
 msgstr "Сенка (на пример: сенка, темно)"
 
-#: woocommerce-garden-designer.php:102
+#: woocommerce-garden-designer.php:103
 msgid "Flower bed type:"
 msgstr "Тип на гредичка:"
 
-#: woocommerce-garden-designer.php:103
+#: woocommerce-garden-designer.php:104
 msgid "Along a wall"
 msgstr "Покрај ѕид"
 
-#: woocommerce-garden-designer.php:107
+#: woocommerce-garden-designer.php:108
 msgid "Plant height:"
 msgstr "Висина на растенија:"
 
-#: woocommerce-garden-designer.php:113
+#: woocommerce-garden-designer.php:114
 msgid "Planting method:"
 msgstr "Начин на садење:"
 
-#: woocommerce-garden-designer.php:118
+#: woocommerce-garden-designer.php:119
 msgid ""
 "After defining the tags, assign them to each of your products or the plants "
 "you offer for sale."
@@ -546,7 +546,7 @@ msgstr ""
 "Откако ќе ги дефинирате ознаките, доделете ги на секој од вашите производи "
 "или на секое растение што го нудите на продажба."
 
-#: woocommerce-garden-designer.php:119
+#: woocommerce-garden-designer.php:120
 msgid ""
 "\"Garden Designer\" will consider only in-stock products and present them to "
 "customers."
@@ -554,7 +554,7 @@ msgstr ""
 "„Дизајнер на градина“ ќе ги земе предвид само производите кои ги има на "
 "залиха и тие ќе бидат понудени на купувачите."
 
-#: woocommerce-garden-designer.php:120
+#: woocommerce-garden-designer.php:121
 msgid ""
 "After selecting desired plants, customers will be directly redirected to "
 "your designated payment page."
@@ -562,7 +562,7 @@ msgstr ""
 "По одбирањето на саканите билки купувачот ќе биде директно префрлен на "
 "вашата дефинирана страница за наплата."
 
-#: woocommerce-garden-designer.php:121
+#: woocommerce-garden-designer.php:122
 msgid ""
 "To use \"Garden Designer\", insert the following shortcode on any page: "
 "[garden_designer]."
@@ -570,7 +570,7 @@ msgstr ""
 "По означување на производите, „Дизајнер на градина“ можете да го користите "
 "на која сакате страница преку вметнување на краткиот код: [garden_designer]."
 
-#: woocommerce-garden-designer.php:128
+#: woocommerce-garden-designer.php:129
 msgid ""
 "<strong>Note</strong>: You can enter only one tag without quotation marks "
 "and other special characters in the corresponding field for each tag.<br /"
@@ -608,29 +608,29 @@ msgstr ""
 "впишат само на еден јазик, иако самата компонента може да се користи на "
 "повеќе јазици."
 
-#: woocommerce-garden-designer.php:131
+#: woocommerce-garden-designer.php:132
 msgid "Shortcode Usage"
 msgstr "Користење на краток код"
 
-#: woocommerce-garden-designer.php:132
+#: woocommerce-garden-designer.php:133
 msgid "To use the \"Garden designer\", simply use the following shortcode:"
 msgstr ""
 "За да го користите „Дизајнер на градина“ едноставно употребете го краткиот "
 "код:"
 
-#: woocommerce-garden-designer.php:133
+#: woocommerce-garden-designer.php:134
 msgid "Shortcode is copied to Clipboard!"
 msgstr "Краткиот код е копиран во меморија!"
 
-#: woocommerce-garden-designer.php:136
+#: woocommerce-garden-designer.php:137
 msgid "Copy shortcode to Clipboard"
 msgstr "Копирај го краткиот код во меморија"
 
-#: woocommerce-garden-designer.php:138
+#: woocommerce-garden-designer.php:139
 msgid "Note:"
 msgstr "Белешка:"
 
-#: woocommerce-garden-designer.php:138
+#: woocommerce-garden-designer.php:139
 msgid ""
 "You can also use \"Garden Designer\" to facilitate garden planning for your "
 "clients."
@@ -638,34 +638,50 @@ msgstr ""
 "„Дизајнер на градина“ можете да го користите и вие за да си го олесните "
 "планирањето на градини за вашите клиенти."
 
-#: woocommerce-garden-designer.php:139
+#: woocommerce-garden-designer.php:140
 msgid "Good luck with your sales!"
 msgstr "Успешна продажба!"
 
-#: woocommerce-garden-designer.php:168
+#: woocommerce-garden-designer.php:167
 msgid "Tag Settings"
 msgstr "Поставки за ознаки"
 
-#: woocommerce-garden-designer.php:170
+#: woocommerce-garden-designer.php:169
 msgid "Sun Tag"
 msgstr "Ознака за сонце"
 
-#: woocommerce-garden-designer.php:171
+#: woocommerce-garden-designer.php:170
 msgid "Part Shade Tag"
 msgstr "Ознака за полусенка"
 
-#: woocommerce-garden-designer.php:172
+#: woocommerce-garden-designer.php:171
 msgid "Shade Tag"
 msgstr "Ознака за сенка"
 
-#: woocommerce-garden-designer.php:173
+#: woocommerce-garden-designer.php:172
 msgid "Width Tag"
 msgstr "Ознака за ширина"
 
-#: woocommerce-garden-designer.php:174
+#: woocommerce-garden-designer.php:173
 msgid "Height Tag"
 msgstr "Ознака за височина"
 
-#: woocommerce-garden-designer.php:178
+#: woocommerce-garden-designer.php:174
+msgid "Tall Plant Color"
+msgstr "Високи билки, боја"
+
+#: woocommerce-garden-designer.php:175
+msgid "Medium Plant Color"
+msgstr "Средни билки, боја"
+
+#: woocommerce-garden-designer.php:176
+msgid "Short Plant Color"
+msgstr "Ниски билки, боја"
+
+#: woocommerce-garden-designer.php:177
+msgid "Maximum Sale Quantity"
+msgstr "Максимална количина на продажба"
+
+#: woocommerce-garden-designer.php:181
 msgid "Enter your custom tags for garden designer settings."
 msgstr "Внесете по ваша желба ознаки за „Дизјанер на градина“."

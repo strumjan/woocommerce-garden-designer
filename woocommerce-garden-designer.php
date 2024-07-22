@@ -12,7 +12,7 @@
 if (!defined('ABSPATH')) {
    exit; // Exit if accessed directly
 }
-// Вчитување на текст доменот
+// Loading the text domain
 add_action( 'init', 'woocommerce_garden_designer_load_textdomain' );
 function woocommerce_garden_designer_load_textdomain() {
     load_plugin_textdomain('woocommerce-garden-designer', false, dirname(plugin_basename(__FILE__)) . '/languages');
@@ -26,7 +26,7 @@ function woocommerce_garden_designer_enqueue_scripts() {
 	$gardenDesignerScriptTranslationPath = plugin_dir_path( __FILE__ ) . 'languages';
     wp_set_script_translations('garden-designer-script', 'woocommerce-garden-designer', $gardenDesignerScriptTranslationPath);
 
-    // Пренесување на URL адресата на страницата за наплата до JavaScript
+    // Passing the checkout page URL to JavaScript
 	$options = get_option('woocommerce_garden_designer_options');
     wp_localize_script('garden-designer-script', 'wc_garden_designer_params', array(
         'checkout_url' => wc_get_checkout_url(),
@@ -39,15 +39,15 @@ function woocommerce_garden_designer_enqueue_scripts() {
 
 }
 
-// Регистрирање на краток кодот
+// Registering the shortcode
 function woocommerce_garden_designer_shortcode($atts) {
 	ob_start();
-	include plugin_dir_path(__FILE__) . '/includes/garden-designer-main.php'; // Промени го патот до твојот PHP фајл
+	include plugin_dir_path(__FILE__) . '/includes/garden-designer-main.php';
 	return ob_get_clean();
 }
 add_shortcode('garden_designer', 'woocommerce_garden_designer_shortcode');
 
-// Додавање на административно мени
+// Adding an admin menu
 add_action('admin_menu', 'woocommerce_garden_designer_admin_menu');
 function woocommerce_garden_designer_admin_menu() {
     add_menu_page(
@@ -56,11 +56,11 @@ function woocommerce_garden_designer_admin_menu() {
         'manage_options', 
         'woocommerce-garden-designer', 
         'woocommerce_garden_designer_settings_page', 
-        plugins_url('includes/cvijet-icon.png', __FILE__)
+        plugins_url('includes/flower-icon.png', __FILE__)
     );
 }
 
-// Функција за приказ на страницата со поставки
+// Function to display settings page
 function woocommerce_garden_designer_settings_page() {
     ?>
     <div class="wrap">
@@ -147,11 +147,9 @@ function woocommerce_garden_designer_settings_page() {
 			document.execCommand("copy");
 			document.body.removeChild(tempInput);
 			
-			// Прикажи пораката за успешно копирање
 			var successMessage = document.getElementById("successMessage");
 			successMessage.style.display = "block";
 			
-			// Скриј ја пораката по 2 секунди
 			setTimeout(function() {
 				successMessage.style.display = "none";
 			}, 5000);
@@ -161,7 +159,7 @@ function woocommerce_garden_designer_settings_page() {
     <?php
 }
 
-// Регистрирање на поставките
+// Registering settings
 add_action('admin_init', 'woocommerce_garden_designer_settings_init');
 function woocommerce_garden_designer_settings_init() {
     register_setting('woocommerce_garden_designer_options_group', 'woocommerce_garden_designer_options', 'woocommerce_garden_designer_options_validate');
@@ -173,35 +171,68 @@ function woocommerce_garden_designer_settings_init() {
     add_settings_field('woocommerce_garden_designer_shade_tag', __('Shade Tag', 'woocommerce-garden-designer'), 'woocommerce_garden_designer_shade_tag_input', 'woocommerce-garden-designer', 'woocommerce_garden_designer_main_section');
     add_settings_field('woocommerce_garden_designer_width_tag', __('Width Tag', 'woocommerce-garden-designer'), 'woocommerce_garden_designer_width_tag_input', 'woocommerce-garden-designer', 'woocommerce_garden_designer_main_section');
     add_settings_field('woocommerce_garden_designer_height_tag', __('Height Tag', 'woocommerce-garden-designer'), 'woocommerce_garden_designer_height_tag_input', 'woocommerce-garden-designer', 'woocommerce_garden_designer_main_section');
+    add_settings_field('woocommerce_garden_designer_tall_color', __('Tall Plant Color', 'woocommerce-garden-designer'), 'woocommerce_garden_designer_tall_color_input', 'woocommerce-garden-designer', 'woocommerce_garden_designer_main_section');
+    add_settings_field('woocommerce_garden_designer_medium_color', __('Medium Plant Color', 'woocommerce-garden-designer'), 'woocommerce_garden_designer_medium_color_input', 'woocommerce-garden-designer', 'woocommerce_garden_designer_main_section');
+    add_settings_field('woocommerce_garden_designer_short_color', __('Short Plant Color', 'woocommerce-garden-designer'), 'woocommerce_garden_designer_short_color_input', 'woocommerce-garden-designer', 'woocommerce_garden_designer_main_section');
+    add_settings_field('woocommerce_garden_designer_maximum_sale_quantity', __('Maximum Sale Quantity', 'woocommerce-garden-designer'), 'woocommerce_garden_designer_maximum_sale_quantity_input', 'woocommerce-garden-designer', 'woocommerce_garden_designer_main_section');
 }
 
 function woocommerce_garden_designer_section_text() {
     echo '<p>' . __('Enter your custom tags for garden designer settings.', 'woocommerce-garden-designer') . '</p>';
 }
 
+function woocommerce_garden_designer_maximum_sale_quantity_input() {
+    $options = get_option('woocommerce_garden_designer_options');
+    $value = isset($options['maximum_sale_quantity']) ? $options['maximum_sale_quantity'] : '';
+    echo "<input id='woocommerce_garden_designer_maximum_sale_quantity' name='woocommerce_garden_designer_options[maximum_sale_quantity]' size='40' type='text' value='$value' />";
+}
+
+function woocommerce_garden_designer_short_color_input() {
+    $options = get_option('woocommerce_garden_designer_options');
+    $value = isset($options['short_color']) ? $options['short_color'] : '';
+    echo "<input id='woocommerce_garden_designer_short_color' name='woocommerce_garden_designer_options[short_color]' size='40' type='text' value='$value' />";
+}
+
+function woocommerce_garden_designer_medium_color_input() {
+    $options = get_option('woocommerce_garden_designer_options');
+    $value = isset($options['medium_color']) ? $options['medium_color'] : '';
+    echo "<input id='woocommerce_garden_designer_medium_color' name='woocommerce_garden_designer_options[medium_color]' size='40' type='text' value='$value' />";
+}
+
+function woocommerce_garden_designer_tall_color_input() {
+    $options = get_option('woocommerce_garden_designer_options');
+    $value = isset($options['tall_color']) ? $options['tall_color'] : '';
+    echo "<input id='woocommerce_garden_designer_tall_color' name='woocommerce_garden_designer_options[tall_color]' size='40' type='text' value='$value' />";
+}
+
 function woocommerce_garden_designer_height_tag_input() {
     $options = get_option('woocommerce_garden_designer_options');
-    echo "<input id='woocommerce_garden_designer_height_tag' name='woocommerce_garden_designer_options[height_tag]' size='40' type='text' value='{$options['height_tag']}' />";
+    $value = isset($options['height_tag']) ? $options['height_tag'] : '';
+    echo "<input id='woocommerce_garden_designer_height_tag' name='woocommerce_garden_designer_options[height_tag]' size='40' type='text' value='$value' />";
 }
 
 function woocommerce_garden_designer_width_tag_input() {
     $options = get_option('woocommerce_garden_designer_options');
-    echo "<input id='woocommerce_garden_designer_width_tag' name='woocommerce_garden_designer_options[width_tag]' size='40' type='text' value='{$options['width_tag']}' />";
+    $value = isset($options['width_tag']) ? $options['width_tag'] : '';
+    echo "<input id='woocommerce_garden_designer_width_tag' name='woocommerce_garden_designer_options[width_tag]' size='40' type='text' value='$value' />";
 }
 
 function woocommerce_garden_designer_shade_tag_input() {
     $options = get_option('woocommerce_garden_designer_options');
-    echo "<input id='woocommerce_garden_designer_shade_tag' name='woocommerce_garden_designer_options[shade_tag]' size='40' type='text' value='{$options['shade_tag']}' />";
+    $value = isset($options['shade_tag']) ? $options['shade_tag'] : '';
+    echo "<input id='woocommerce_garden_designer_shade_tag' name='woocommerce_garden_designer_options[shade_tag]' size='40' type='text' value='$value' />";
 }
 
 function woocommerce_garden_designer_part_shade_tag_input() {
     $options = get_option('woocommerce_garden_designer_options');
-    echo "<input id='woocommerce_garden_designer_part_shade_tag' name='woocommerce_garden_designer_options[part_shade_tag]' size='40' type='text' value='{$options['part_shade_tag']}' />";
+    $value = isset($options['part_shade_tag']) ? $options['part_shade_tag'] : '';
+    echo "<input id='woocommerce_garden_designer_part_shade_tag' name='woocommerce_garden_designer_options[part_shade_tag]' size='40' type='text' value='$value' />";
 }
 
 function woocommerce_garden_designer_sun_tag_input() {
     $options = get_option('woocommerce_garden_designer_options');
-    echo "<input id='woocommerce_garden_designer_sun_tag' name='woocommerce_garden_designer_options[sun_tag]' size='40' type='text' value='{$options['sun_tag']}' />";
+    $value = isset($options['sun_tag']) ? $options['sun_tag'] : '';
+    echo "<input id='woocommerce_garden_designer_sun_tag' name='woocommerce_garden_designer_options[sun_tag]' size='40' type='text' value='$value' />";
 }
 
 function woocommerce_garden_designer_options_validate($input) {
@@ -211,14 +242,18 @@ function woocommerce_garden_designer_options_validate($input) {
     $new_input['shade_tag'] = sanitize_text_field($input['shade_tag']);
     $new_input['width_tag'] = sanitize_text_field($input['width_tag']);
     $new_input['height_tag'] = sanitize_text_field($input['height_tag']);
+    $new_input['tall_color'] = sanitize_text_field($input['tall_color']);
+    $new_input['medium_color'] = sanitize_text_field($input['medium_color']);
+    $new_input['short_color'] = sanitize_text_field($input['short_color']);
+    $new_input['maximum_sale_quantity'] = sanitize_text_field($input['maximum_sale_quantity']);
 
-    // Додавање на таговите во WooCommerce
+    // Adding tags to WooCommerce
     $tags = array(
         $new_input['sun_tag'],
         $new_input['part_shade_tag'], 
         $new_input['shade_tag'], 
         $new_input['width_tag'], 
-        $new_input['height_tag'] 
+        $new_input['height_tag'],
     );
 
     foreach ($tags as $tag) {
@@ -297,17 +332,6 @@ function wgd_add_multiple_products_to_cart( $url = false ) {
 // Fire before the WC_Form_Handler::add_to_cart_action callback.
 add_action( 'wp_loaded', 'wgd_add_multiple_products_to_cart', 15 );
 
-
-/**
- * Invoke class private method
- *
- * @since   0.1.0
- *
- * @param   string $class_name
- * @param   string $methodName
- *
- * @return  mixed
- */
 function woo_hack_invoke_private_method( $class_name, $methodName ) {
     if ( version_compare( phpversion(), '5.3', '<' ) ) {
         throw new Exception( 'PHP version does not support ReflectionClass::setAccessible()', __LINE__ );
@@ -323,5 +347,4 @@ function woo_hack_invoke_private_method( $class_name, $methodName ) {
     return call_user_func_array( array( $method, 'invoke' ), $args );
 }
 // End of Add multiple products in cart over url
-
 ?>

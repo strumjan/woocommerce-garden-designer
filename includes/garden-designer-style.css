@@ -257,16 +257,16 @@ p.zid {
 	position: relative;
 }				
 .loader {
-	position: fixed; /* Позиционирај го елементот на врвот од другите елементи */
-	z-index: 1000; /* Зголеми го z-index за да биде видлив над другите елементи */
+	position: fixed;
+	z-index: 1000;
 	left: 0;
 	top: 0;
-	width: 100%; /* Ширина на целиот екран */
-	height: 100%; /* Висина на целиот екран */
-	background: rgba(255, 255, 255, 0.9); /* Бела позадина со 70% прозирност */
-	display: flex; /* Користи flexbox за центрирање на содржината */
-	justify-content: center; /* Центрирај хоризонтално */
-	align-items: center; /* Центрирај вертикално */
+	width: 100%;
+	height: 100%;
+	background: rgba(255, 255, 255, 0.9);
+	display: flex;
+	justify-content: center;
+	align-items: center;
 	font-size: 24px;
 }
 .loaderimg {
